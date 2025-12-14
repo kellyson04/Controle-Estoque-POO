@@ -5,8 +5,8 @@ Projeto focado na minha evolução em Java e Orientação a Objetos.
 
 - **08/Dez/2025:** Criação do projeto. Lógica simples, gerenciava apenas 1 produto.
 - **12/Dez/2025:** Atualização importante!
-     Focando em aprender `ArrayList`.
-     Implementação de validações de segurança (evitando erros de indice).
+   * Focando em aprender `ArrayList`.
+   * Implementação de validações de segurança (evitando erros de indice).
      Código refatorado para Inglês Técnico.
  - **14/Dez/2025:**  Mudanças importantes!.
     * Adicionada busca e filtro por **Categoria**.
