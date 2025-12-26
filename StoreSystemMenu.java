@@ -90,6 +90,7 @@ public class StoreSystemMenu {
         }
     }
 
+    //em particular o metodo que foi mais dificil de aprender pois tive que entender como funcionam os setters e toda a logica da interação dos loops com o objeto, ainda em aprendizado
     public void updateProduct() {
         System.out.print("Products Available for Update\n");
         for (int i = 0; i < listaProdutos.size(); i++) {
@@ -209,3 +210,4 @@ public class StoreSystemMenu {
         }
     }
 }
+
