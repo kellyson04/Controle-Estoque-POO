@@ -23,9 +23,36 @@ public class Produto {
         return this.productName;
     }
 
+    public void setProductName(String newProductName) {
+        this.productName = newProductName;
+    }
+
     public String getProductCategory() {
         return this.productCategory;
     }
+
+    public void setProductCategoryName(String newCategoryName) {
+        this.productCategory = newCategoryName;
+    }
+
+    public double getProductPrice () {
+        return this.productPrice;
+    }
+
+    public void setProductPrice(double newProductPrice) {
+        this.productPrice = newProductPrice;
+    }
+
+    public int getProductQuantity() {
+        return this.productQuantity;
+    }
+
+    public void setProductQuantity(int newProductQuantity) {
+        this.productQuantity = newProductQuantity;
+    }
+
+
+
 
     public double totalValue() {
         double totalStock = this.productPrice * this.productQuantity;
@@ -33,6 +60,6 @@ public class Produto {
     }
 
     public String toString() {
-        return " O produto " +productName+ " da categoria " +getProductCategory() + " no valor de R$" +productPrice+ " contendo " +productQuantity+ " unidades" + " Com total de R$" +totalValue() + " Esta no seu Carrinho!";
+        return " Product " +getProductName()+ " Category " +getProductCategory() + " Price: $" +productPrice+ " Qty: " +productQuantity+  " Total Value: $" +totalValue();
     }
 }
