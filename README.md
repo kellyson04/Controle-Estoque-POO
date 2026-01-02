@@ -22,6 +22,9 @@ Projeto focado na minha evolução em Java e Orientação a Objetos.
     * **O "Scanner Buffado":** entendi q nextInt() trava se digitar letra. Criei um método com **try-catch e Integer.parseInt** que evita isso.
     * **Regex no CPF:** Em vez de fazer 10 if/else como eu estava acostumado, **usei matches("[0-9.-]+")** para validar o CPF.
     * **Lógica de Acesso:** Usei variáveis booleanas **(flags)** para validar login e só liberar o menu da loja se a senha bater.
+  * **02/Jan/2026:** Persistência em CSV e Otimização de Performance 💾⚡
+  *  **Persistência de Dados:** Criei o saveProducts pra mandar tudo pro **CSV**. Agora os dados ficam gravados no disco e não somem mais quando o programa fecha.
+  *  **Código Limpo (DRY):** Dei uma limpada no uso dos loops com metodos pra não repetir código à toa. Centralizei a listagem e o salvamento, o que deixa o código bem mais fácil de realizar manutenções dps.
 
       
     
