@@ -29,5 +29,5 @@ Projeto focado na minha evolução em Java e Orientação a Objetos.
      * **Separação por tipo:** Agora o sistema entende que um Livro, uma Comida e um Eletrônico são diferentes. Cada um tem seus próprios detalhes (como autor ou validade), **mas todos herdam o básico da classe Produto**.
      * **Produto virou uma "regra":** Agora a classe produto é **abstrata**. Isso significa que ninguém consegue criar um produto genérico, agora é obrigatório escolher um tipo real para cadastrar.
      * **Cada um com sua função:** Comecei a separar quem manda na lógica (Managers) de quem só cuida de ler e gravar o arquivo CSV (Repositories). **Com cada classe cuidando da sua parte, o código fica bem mais fácil fazer a manutenção**.
-     **08/02/2026:** Pausa no controle de estoque e novo **Projeto One Piece Game 🏴‍☠️**
-       **Voltei de viagem apos 25 dias** e agora que entendi melhor alguns conceitos comecarei o projeto do zero focado em One Piece para apender oq falta pra dominar POO, que no caso seria interfaces enums streams e collections.
+   * **08/02/2026:** Pausa no controle de estoque e novo **Projeto One Piece Game 🏴‍☠️**
+    * **Voltei de viagem apos 25 dias** e agora que entendi melhor alguns conceitos comecarei o projeto do zero focado em One Piece para apender oq falta pra dominar POO, que no caso seria interfaces enums streams e collections.
